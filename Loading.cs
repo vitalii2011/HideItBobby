@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-namespace HideIt
+namespace HideItBobby
 {
     public class Loading : LoadingExtensionBase
     {
@@ -27,7 +27,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] Loading:OnLevelLoaded -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] Loading:OnLevelLoaded -> Exception: " + e.Message);
             }
         }
 
@@ -43,7 +43,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] Loading:OnLevelUnloading -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] Loading:OnLevelUnloading -> Exception: " + e.Message);
             }
         }
     }

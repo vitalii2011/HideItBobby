@@ -1,11 +1,11 @@
 ﻿using ColossalFramework;
-using Harmony;
+using HarmonyLib;
 using System;
 using System.Reflection;
 using System.Threading;
 using UnityEngine;
 
-namespace HideIt
+namespace HideItBobby
 {
     [HarmonyPatch(typeof(TutorialAdvisorPanel), "Show", new Type[] { typeof(string), typeof(string), typeof(string), typeof(float), typeof(bool), typeof(bool) })]
     public static class TutorialAdvisorPanelShowPatch
@@ -25,7 +25,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] TutorialAdvisorPanelShowPatch:Prefix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] TutorialAdvisorPanelShowPatch:Prefix -> Exception: " + e.Message);
                 return true;
             }
         }
@@ -49,7 +49,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] UnlockingPanelShowModalPatch:Prefix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] UnlockingPanelShowModalPatch:Prefix -> Exception: " + e.Message);
                 return true;
             }
         }
@@ -73,7 +73,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] CargoHarborAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] CargoHarborAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
                 return __result;
             }
         }
@@ -97,7 +97,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] HarborAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] HarborAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
                 return __result;
             }
         }
@@ -121,7 +121,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] IndustryBuildingAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] IndustryBuildingAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
                 return __result;
             }
         }
@@ -145,7 +145,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] LandfillSiteAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] LandfillSiteAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
                 return __result;
             }
         }
@@ -169,7 +169,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] ParkAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] ParkAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
                 return __result;
             }
         }
@@ -193,7 +193,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] ParkBuildingAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] ParkBuildingAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
                 return __result;
             }
         }
@@ -217,7 +217,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] WarehouseAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] WarehouseAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
                 return __result;
             }
         }
@@ -241,7 +241,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] WildlifeSpawnPointAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] WildlifeSpawnPointAICountAnimalsPatch:Postfix -> Exception: " + e.Message);
                 return __result;
             }
         }
@@ -328,7 +328,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] NaturalResourceManagerUpdateTexturePatch:Prefix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] NaturalResourceManagerUpdateTexturePatch:Prefix -> Exception: " + e.Message);
                 return true;
             }
         }
@@ -369,7 +369,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] NaturalResourceManagerUpdateTexturePatch:AddResource -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] NaturalResourceManagerUpdateTexturePatch:AddResource -> Exception: " + e.Message);
             }
         }
     }
@@ -449,7 +449,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] NaturalResourceManagerUpdateTextureBPatch:Prefix -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] NaturalResourceManagerUpdateTextureBPatch:Prefix -> Exception: " + e.Message);
                 return true;
             }
         }
@@ -477,7 +477,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] NaturalResourceManagerUpdateTextureBPatch:AddResource -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] NaturalResourceManagerUpdateTextureBPatch:AddResource -> Exception: " + e.Message);
             }
         }
     }

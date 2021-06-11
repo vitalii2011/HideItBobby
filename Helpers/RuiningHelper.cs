@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-namespace HideIt
+namespace HideItBobby
 {
     public static class RuiningHelper
     {
@@ -36,7 +36,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] RuiningHelper:UpdateExistingTreesRuining -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] RuiningHelper:UpdateExistingTreesRuining -> Exception: " + e.Message);
             }
         }
 
@@ -70,7 +70,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] RuiningHelper:UpdateExistingPropsRuining -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] RuiningHelper:UpdateExistingPropsRuining -> Exception: " + e.Message);
             }
         }
     }

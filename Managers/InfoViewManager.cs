@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace HideIt
+namespace HideItBobby
 {
     public class InfoViewManager
     {
@@ -57,7 +57,7 @@ namespace HideIt
             }
             catch (Exception e)
             {
-                Debug.Log("[Hide It!] InfoViewHelper:UpdateInfoView -> Exception: " + e.Message);
+                Debug.Log("[Hide it, BOBby!] InfoViewHelper:UpdateInfoView -> Exception: " + e.Message);
             }
 }
 
