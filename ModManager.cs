@@ -79,9 +79,6 @@ namespace HideItBobby
                         ModConfig.Instance.CliffDecorations,
                         ModConfig.Instance.FertileDecorations,
                         ModConfig.Instance.GrassDecorations);
-                    ToggleRuining(
-                        ModConfig.Instance.TreeRuining,
-                        ModConfig.Instance.PropRuining);
                     ToggleGroundColor(
                         ModConfig.Instance.GrassFertilityGroundColor,
                         ModConfig.Instance.GrassFieldGroundColor,
@@ -195,40 +192,6 @@ namespace HideItBobby
             catch (Exception e)
             {
                 Debug.Log("[Hide it, BOBby!] ModManager:ToggleDecorations -> Exception: " + e.Message);
-            }
-        }
-
-        private void ToggleRuining(bool disableTreeRuining, bool disablePropRuining)
-        {
-            try
-            {
-                TreeInfo treeInfo;
-
-                for (uint i = 0; i < PrefabCollection<TreeInfo>.LoadedCount(); i++)
-                {
-                    treeInfo = PrefabCollection<TreeInfo>.GetPrefab(i);
-
-                    if (treeInfo != null)
-                    {
-                        treeInfo.m_createRuining = !disableTreeRuining;
-                    }
-                }
-
-                PropInfo propInfo;
-
-                for (uint i = 0; i < PrefabCollection<PropInfo>.LoadedCount(); i++)
-                {
-                    propInfo = PrefabCollection<PropInfo>.GetPrefab(i);
-
-                    if (propInfo != null)
-                    {
-                        propInfo.m_createRuining = !disablePropRuining;
-                    }
-                }
-            }
-            catch (Exception e)
-            {
-                Debug.Log("[Hide it, BOBby!] ModManager:ToggleRuining -> Exception: " + e.Message);
             }
         }
 

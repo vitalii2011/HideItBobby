@@ -78,7 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration.cs" />
-    <Compile Include="Helpers\RuiningHelper.cs" />
     <Compile Include="Managers\InfoViewManager.cs" />
     <Compile Include="ModManager.cs" />
     <Compile Include="ModUtils.cs" />

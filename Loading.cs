@@ -12,16 +12,6 @@ namespace HideItBobby
         {
             try
             {
-                if (ModConfig.Instance.AutoUpdateTreeRuiningAtLoad)
-                {
-                    RuiningHelper.UpdateExistingTreesRuining(ModConfig.Instance.TreeRuining);
-                }
-
-                if (ModConfig.Instance.AutoUpdatePropRuiningAtLoad)
-                {
-                    RuiningHelper.UpdateExistingPropsRuining(ModConfig.Instance.PropRuining);
-                }
-
                 _hideManagerGameObject = new GameObject("HideItModManager");
                 _hideManagerGameObject.AddComponent<ModManager>();
             }
