@@ -9,7 +9,7 @@ namespace HideItBobby
     {
         private const string HarmonyId = "local.csl.HideItBobbyby";
 
-        public string Name => "Hide it, Bobby!";
+        public string Name => "Hide it, Bobby! 1.20 Preview";
         public string Description => "BOB compatible fork of Hide It!. This version does NOT allow to hide props. Please use BOB for that.";
 
         private static bool patched = false;
