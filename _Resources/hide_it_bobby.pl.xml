@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- language -->
+  <string name="LanguageName">Polski (Polish)</string>
+  <string name="LanguageHeader">Język</string>
+  <string name="UseGameLanguage">Użyj języka gry</string>
+  <string name="SelectLanguage">Wybierz język</string>
+  <!-- features -->
+  <string name="AvailableFeaturesHeader">Dostępne funkcje</string>
+  <string name="UnavailableFeaturesHeader">Niedostępne funkcje</string>
+  <string name="UnavailableFeaturesDescription">Funkcje wyświetlone w tej sekcji są niedostępne ze względu na konflikt z inną modyfikacją.</string>
+  <!-- main menu -->
+  <string name="MainMenuGroup">Menu główne</string>
+  <string name="MainMenuChirper">Ukryj ćwierkacza</string>
+  <string name="MainMenuDLCPanel">Ukryj panel DLC</string>
+  <string name="MainMenuLogoImage">Ukryj logo</string>
+  <string name="MainMenuNewsPanel">Ukryj panel nowości</string>
+  <string name="MainMenuParadoxAccountPanel">Ukryj panel konta Paradox</string>
+  <string name="MainMenuVersionNumber">Ukryj numer wersji</string>
+  <string name="MainMenuWorkshopPanel">Ukryj panel warsztatu</string>
+  <!-- ui elements -->
+  <string name="InGameUIGroup">Interfejs w grze</string>
+  <string name="AdvisorButton">Ukryj przycisk doradcy</string>
+  <string name="BulldozerButton">Ukryj przycisk buldożera</string>
+  <string name="ChirperButton">Ukryj ćwierkacza</string>
+  <string name="CinematicCameraButton">Ukryj przycisk kamery kinowej</string>
+  <string name="CityName">Ukryj nazwę miasta</string>
+  <string name="DisastersButton">Ukryj przycisk katastrof</string>
+  <string name="FreeCameraButton">Ukryj przycisk kamery swobodnej</string>
+  <string name="GearButton">Ukryj przycisk menu</string>
+  <string name="InfoViewsButton">Ukryj przycisk widoków informacyjnych</string>
+  <string name="RadioButton">Ukryj przycisk radia</string>
+  <string name="Separators">Usuń odstępy na pasku narzędzi</string>
+  <string name="TimePanel">Ukryj panel czasu</string>
+  <string name="UnlockButton">Ukryj przycisk kamieni milowych</string>
+  <string name="ZoomAndUnlockBackground">Ukryj tło przycisku obszarów</string>
+  <string name="ZoomButton">Ukryj przycisk obszarów</string>
+  <string name="CongratulationPanel">Ukryj panel gratulacji</string>
+  <string name="AdvisorPanel">Ukryj panel doradcy</string>
+  <string name="PauseOutlineEffect">Wyłącz efekt ramki podczas przerwy</string>
+  <string name="BulldozerBar">Ukryj pasek burzenia</string>
+  <string name="Thermometer">Ukryj termometr</string>
+  <string name="ModifyToolbarPosition">Zmień pozycję paska narzędzi</string>
+  <!-- objects and props -->
+  <string name="ObjectsAndPropsGroup">Obiekty</string>
+  <string name="Seagulls">Usuń mewy</string>
+  <string name="Wildlife">Usuń zwierzęta</string>
+  <!-- decorations -->
+  <string name="DecorationsGroup">Dekoracje</string>
+  <string name="CliffDecorations">Ukryj dekoracje klifów</string>
+  <string name="FertileDecorations">Ukryj dekoracje trawy</string>
+  <string name="GrassDecorations">Ukryj dekoracje żyznej ziemi</string>
+  <!-- ruining -->
+  <string name="RuiningGroup">Zmiany terenu</string>
+  <string name="TreeRuining">Wyłącz zmiany pod drzewami</string>
+  <string name="PropRuining">Wyłącz zmiany pod obiektami</string>
+  <string name="UpdateRuiningButton">Aktualizuj zmiany terenu pod drzewami i budynkami</string>
+  <string name="RuiningUnavailableDescriptionLine1">Używasz obecnie modyfikacji BOB z funkcją ukrywania zmian terenu.</string>
+  <string name="RuiningUnavailableDescriptionLine2">Proszę użyj do ukrywania zmian terenu modyfikacji BOB zamiast tej.</string>
+  <!-- ground and water colors -->
+  <string name="GroundAndWaterColorGroup">Kolory ziemi i wody</string>
+  <string name="GrassFertilityGroundColor">Wyłącz kolor żyznej ziemi</string>
+  <string name="GrassFieldGroundColor">Wyłącz kolor pól</string>
+  <string name="GrassForestGroundColor">Wyłącz kolor lasu</string>
+  <string name="GrassPollutionGroundColor">Wyłącz kolor zanieczyszczenia</string>
+  <string name="DirtyWaterColor">Wyłącz kolor brudnej wody</string>
+  <!-- effects -->
+  <string name="EffectsGroup">Efekty</string>
+  <string name="OreAreaEffect">Ukryj obszar rudy</string>
+  <string name="OilAreaEffect">Ukryj obszar ropy</string>
+  <string name="SandAreaEffect">Ukryj obszar piasku</string>
+  <string name="FertilityAreaEffect">Ukryj obszar żyznej ziemi</string>
+  <string name="ForestAreaEffect">Ukryj obszar lasu</string>
+  <string name="ShoreAreaEffect">Ukryj brzeg</string>
+  <string name="PollutedAreaEffect">Ukryj zanieczyszczony obszar</string>
+  <string name="BurnedAreaEffect">Ukryj spalony obszar</string>
+  <string name="DestroyedAreaEffect">Ukryj zniszczony obszar</string>
+  <string name="PollutionFog">Ukryj mgłę zanieczyszczenia</string>
+  <string name="VolumeFog">Ukryj mgłę objętości</string>
+  <string name="DistanceFog">Ukryj mgłę odległości</string>
+  <string name="EdgeFog">Ukryj mgłę brzegu</string>
+</resources>

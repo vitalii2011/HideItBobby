@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <!-- language -->
+  <string name="LanguageName">English</string>
+  <string name="LanguageHeader">Language</string>
+  <string name="UseGameLanguage">Use game language</string>
+  <string name="SelectLanguage">Select language</string>
+  <!-- features -->
+  <string name="AvailableFeaturesHeader">Available features</string>
+  <string name="UnavailableFeaturesHeader">Unavailable features</string>
+  <string name="UnavailableFeaturesDescription">Features visible in this section are disabled due to a conflict with another mod.</string>
+  <!-- main menu -->
+  <string name="MainMenuGroup">Main menu UI</string>
+  <string name="MainMenuChirper">Hide chirper</string>
+  <string name="MainMenuDLCPanel">Hide DLC panel</string>
+  <string name="MainMenuLogoImage">Hide logo</string>
+  <string name="MainMenuNewsPanel">Hide news panel</string>
+  <string name="MainMenuParadoxAccountPanel">Hide Paradox account panel</string>
+  <string name="MainMenuVersionNumber">Hide version</string>
+  <string name="MainMenuWorkshopPanel">Hide workshop panel</string>
+  <!-- ui elements -->
+  <string name="InGameUIGroup">In-game UI</string>
+  <string name="AdvisorButton">Hide advisor button</string>
+  <string name="BulldozerButton">Hide bulldozer button</string>
+  <string name="ChirperButton">Hide chirper button</string>
+  <string name="CinematicCameraButton">Hide cinematic camera button</string>
+  <string name="CityName">Hide city name</string>
+  <string name="DisastersButton">Hide disasters button</string>
+  <string name="FreeCameraButton">Hide free camera button</string>
+  <string name="GearButton">Hide gear button</string>
+  <string name="InfoViewsButton">Hide info views button</string>
+  <string name="RadioButton">Hide radio button</string>
+  <string name="Separators">Hide separators in toolbar</string>
+  <string name="TimePanel">Hide time panel</string>
+  <string name="UnlockButton">Hide unlock button</string>
+  <string name="ZoomAndUnlockBackground">Hide zoom and unlock background</string>
+  <string name="ZoomButton">Hide zoom button</string>
+  <string name="CongratulationPanel">Hide congratulation panel</string>
+  <string name="AdvisorPanel">Hide advisor panel</string>
+  <string name="PauseOutlineEffect">Hide pause outline</string>
+  <string name="BulldozerBar">Hide bulldozer bar</string>
+  <string name="Thermometer">Hide thermometer</string>
+  <string name="ModifyToolbarPosition">Modify toolbar position</string>
+  <!-- objects and props -->
+  <string name="ObjectsAndPropsGroup">Objects and props</string>
+  <string name="Seagulls">Remove seagulls</string>
+  <string name="Wildlife">Remove wildlife</string>
+  <!-- decorations -->
+  <string name="DecorationsGroup">Sprites</string>
+  <string name="CliffDecorations">Hide cliff decorations</string>
+  <string name="FertileDecorations">Hide grass decorations</string>
+  <string name="GrassDecorations">Hide fertile decorations</string>
+  <!-- ruining -->
+  <string name="RuiningGroup">Ruining</string>
+  <string name="TreeRuining">Hide trees ruining</string>
+  <string name="PropRuining">Hide props ruining</string>
+  <string name="UpdateRuiningButton">Update ruining on existing trees and props now!</string>
+  <string name="RuiningUnavailableDescriptionLine1">You are using BOB with hiding of ruining feature.</string>
+  <string name="RuiningUnavailableDescriptionLine2">Please use BOB instead of this mod to hide tree and prop ruining.</string>
+  <!-- ground and water colors -->
+  <string name="GroundAndWaterColorGroup">Ground and water colors</string>
+  <string name="GrassFertilityGroundColor">Remove grass fertility ground color</string>
+  <string name="GrassFieldGroundColor">Remove grass field ground color</string>
+  <string name="GrassForestGroundColor">Remove grass forest ground color</string>
+  <string name="GrassPollutionGroundColor">Remove grass pollution ground color</string>
+  <string name="DirtyWaterColor">Remove dirty water color</string>
+  <!-- effects -->
+  <string name="EffectsGroup">Effects</string>
+  <string name="OreAreaEffect">Hide ore area</string>
+  <string name="OilAreaEffect">Hide oil area</string>
+  <string name="SandAreaEffect">Hide sand area</string>
+  <string name="FertilityAreaEffect">Hide fertility area</string>
+  <string name="ForestAreaEffect">Hide forest area</string>
+  <string name="ShoreAreaEffect">Hide shore area</string>
+  <string name="PollutedAreaEffect">Hide polluted area</string>
+  <string name="BurnedAreaEffect">Hide burned area</string>
+  <string name="DestroyedAreaEffect">Hide destroyed area</string>
+  <string name="PollutionFog">Hide pollution fog</string>
+  <string name="VolumeFog">Hide volume fog</string>
+  <string name="DistanceFog">Hide distance fog</string>
+  <string name="EdgeFog">Hide edge fog</string>
+</resources>
