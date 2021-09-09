@@ -16,6 +16,6 @@
         public const string Stream = "";
         public const string LongName = Name + " " + VersionNumber;
 #endif
-        public const string Description = "BOB compatible fork of Hide It!. This version does NOT allow to hide props. Please use BOB for that.";
+        public const string Description = "BOB compatible fork of Hide It!.";
     }
 }
