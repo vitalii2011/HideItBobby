@@ -1,6 +1,10 @@
 ﻿using CitiesHarmony.API;
+using ColossalFramework;
+using ColossalFramework.Plugins;
 using HarmonyLib;
+using ICities;
 using System;
+using System.Linq;
 
 namespace HideItBobby.Features.Ruining.Compatibility
 {
@@ -8,10 +12,10 @@ namespace HideItBobby.Features.Ruining.Compatibility
     {
         #region Instance
         private static readonly Lazy<HideRuiningCompatibility> _instance = new Lazy<HideRuiningCompatibility>(() => new HideRuiningCompatibility());
-        public static HideRuiningCompatibility Instance { get => _instance.Value; } 
+        public static HideRuiningCompatibility Instance { get => _instance.Value; }
         #endregion
 
-        private const string bobHarmonyId = "com.github.algernon-A.csl.bob";
+        /*private const string bobHarmonyId = "com.github.algernon-A.csl.bob";
 
         private static readonly Type treeInfoType = typeof(TreeInfo);
         private static readonly Type propInfoType = typeof(PropInfo);
@@ -30,6 +34,22 @@ namespace HideItBobby.Features.Ruining.Compatibility
                     && method.Name == "InitializePrefab")
                 {
                     return false;
+                }
+            }
+            return true;
+        }*/
+
+        protected override bool CheckCompatibility()
+        {
+            foreach (PluginManager.PluginInfo pluginInfo in Singleton<PluginManager>.instance.GetPluginsInfo())
+            {
+                if (pluginInfo.isEnabled)
+                {
+                    IUserMod instance = pluginInfo.GetInstances<IUserMod>().FirstOrDefault();
+                    if (!(instance?.Name is null) && instance.Name.StartsWith("BOB - the tree and prop replacer"))
+                    {
+                        return false;
+                    }
                 }
             }
             return true;

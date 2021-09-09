@@ -10,7 +10,7 @@ namespace HideItBobby.Features
 #if DEV || PREVIEW
         private const int CheckCountTreshold = 10;
 #else
-        private const int CheckCountTreshold = 3;
+        private const int CheckCountTreshold = 20;
 #endif
         private int _checkCount;
         public int CheckCount => _checkCount;
