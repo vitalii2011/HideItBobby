@@ -92,6 +92,12 @@ namespace HideItBobby.Translation
         {
             if (IsInitialized) return;
 
+            var dePath = Path.Combine(Paths.TranslationsDir, "hide_it_bobby.de.xml");
+            if (!File.Exists(dePath))
+            {
+                File.WriteAllText(dePath, Properties.Resources.hide_it_bobby_de, System.Text.Encoding.UTF8);
+            }
+
             var enPath = Path.Combine(Paths.TranslationsDir, "hide_it_bobby.en.xml");
             if (!File.Exists(enPath))
             {
@@ -102,6 +108,12 @@ namespace HideItBobby.Translation
             if (!File.Exists(plPath))
             {
                 File.WriteAllText(plPath, Properties.Resources.hide_it_bobby_pl, System.Text.Encoding.UTF8);
+            }
+
+            var zhPath = Path.Combine(Paths.TranslationsDir, "hide_it_bobby.zh.xml");
+            if (!File.Exists(zhPath))
+            {
+                File.WriteAllText(zhPath, Properties.Resources.hide_it_bobby_zh, System.Text.Encoding.UTF8);
             }
 
             LocaleManager.eventLocaleChanged += OnEventLocaleChanged;

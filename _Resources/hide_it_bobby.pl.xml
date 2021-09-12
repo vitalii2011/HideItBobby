@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <!-- language -->
-  <string name="LanguageName">Polski (Polish)</string>
+  <string name="LanguageName">Polski</string>
   <string name="LanguageHeader">Język</string>
   <string name="UseGameLanguage">Użyj języka gry</string>
   <string name="SelectLanguage">Wybierz język</string>

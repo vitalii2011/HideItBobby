@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- language -->
+  <string name="LanguageName">Deutsch</string>
+  <string name="LanguageHeader">Sprache</string>
+  <string name="UseGameLanguage">Spielsprache verwenden</string>
+  <string name="SelectLanguage">Sprache wählen</string>
+  <!-- features -->
+  <string name="AvailableFeaturesHeader">Verfügbare Funktionen</string>
+  <string name="UnavailableFeaturesHeader">Nicht verfügbare Funktionen</string>
+  <string name="UnavailableFeaturesDescription">In diesem Abschnitt sichtbare Funktionen sind aufgrund eines Konflikts mit einer anderen Mod deaktiviert.</string>
+  <!-- main menu -->
+  <string name="MainMenuGroup">Hauptmenü-Oberfläche</string>
+  <string name="MainMenuChirper">Chirper ausblenden</string>
+  <string name="MainMenuDLCPanel">DLC-Panel ausblenden</string>
+  <string name="MainMenuLogoImage">Logo ausblenden</string>
+  <string name="MainMenuNewsPanel">News-Panel ausblenden</string>
+  <string name="MainMenuParadoxAccountPanel">Paradox-Konto-Panel ausblenden</string>
+  <string name="MainMenuVersionNumber">Versionsnummer ausblenden</string>
+  <string name="MainMenuWorkshopPanel">Workshop-Panel ausblenden</string>
+  <!-- ui elements -->
+  <string name="InGameUIGroup">Benutzeroberfläche im Spiel</string>
+  <string name="AdvisorButton">Berater-Schaltfläche ausblenden</string>
+  <string name="BulldozerButton">Bulldozer-Schaltfläche ausblenden</string>
+  <string name="ChirperButton">Chirper-Schaltfläche ausblenden</string>
+  <string name="CinematicCameraButton">Filmkamera-Schaltfläche ausblenden</string>
+  <string name="CityName">Städtenamen ausblenden</string>
+  <string name="DisastersButton">Katastrophen-Schaltfläche ausblenden</string>
+  <string name="FreeCameraButton">Freie Kamera-Schaltfläche ausblenden</string>
+  <string name="GearButton">Zahnrad-Schaltfläche ausblenden</string>
+  <string name="InfoViewsButton">Info-Ansicht-Schaltfläche ausblenden</string>
+  <string name="RadioButton">Radio-Schaltfläche ausblenden</string>
+  <string name="Separators">Trennzeichen in der Werkzeugleiste ausblenden</string>
+  <string name="TimePanel">Zeit-Panel ausblenden</string>
+  <string name="UnlockButton">Freischalt-Schaltfläche ausblenden</string>
+  <string name="ZoomAndUnlockBackground">Zoom und Freischalt-Hintergrund ausblenden</string>
+  <string name="ZoomButton">Zoom-Schaltfläche ausblenden</string>
+  <string name="CongratulationPanel">Glückwunsch-Panel ausblenden</string>
+  <string name="AdvisorPanel">Berater-Panel ausblenden</string>
+  <string name="PauseOutlineEffect">Pausierungsrahmen ausblenden</string>
+  <string name="BulldozerBar">Bulldozerleiste ausblenden</string>
+  <string name="Thermometer">Thermometer ausblenden</string>
+  <string name="ModifyToolbarPosition">Position der Werkzeugleiste ändern</string>
+  <!-- objects and props -->
+  <string name="ObjectsAndPropsGroup">Objekte und Requisiten</string>
+  <string name="Seagulls">Möwen entfernen</string>
+  <string name="Wildlife">Wildtiere entfernen</string>
+  <!-- decorations -->
+  <string name="DecorationsGroup">Dekorationen</string>
+  <string name="CliffDecorations">Klippendekorationen ausblenden</string>
+  <string name="FertileDecorations">Grasdekorationen ausblenden</string>
+  <string name="GrassDecorations">Fruchtbarkeitsdekorationen verstecken</string>
+  <!-- ruining -->
+  <string name="RuiningGroup">Abgenutzte Oberfläche</string>
+  <string name="TreeRuining">Abgenutzte Oberfläche unter Bäumen ausblenden</string>
+  <string name="PropRuining">Abgenutzte Oberfläche unter Requisiten ausblenden</string>
+  <string name="UpdateRuiningButton">Aktualisiere jetzt die Abnutzung unter bestehenden Bäumen und Requisiten!</string>
+  <string name="RuiningUnavailableDescriptionLine1">Du verwendest BOB zum Verstecken der Abnutzung.</string>
+  <string name="RuiningUnavailableDescriptionLine2">Bitte benutze BOB anstelle dieser Mods, um die Abnutzung unter bestehenden Bäumen und Requisiten zu verstecken.</string>
+  <!-- ground and water colors -->
+  <string name="GroundAndWaterColorGroup">Farben von Boden und Wasser</string>
+  <string name="GrassFertilityGroundColor">Fruchtbarkeits-Bodenfärbung entfernen</string>
+  <string name="GrassFieldGroundColor">Feld-Bodenfärbung entfernen</string>
+  <string name="GrassForestGroundColor">Wald-Bodenfärbung entfernen</string>
+  <string name="GrassPollutionGroundColor">Verschmutzungs-Bodenfärbung entfernen</string>
+  <string name="DirtyWaterColor">Verschmutzungs-Wasserfärbung entfernen</string>
+  <!-- effects -->
+  <string name="EffectsGroup">Effekte</string>
+  <string name="OreAreaEffect">Erzbereich ausblenden</string>
+  <string name="OilAreaEffect">Ölbereich ausblenden</string>
+  <string name="SandAreaEffect">Sandfläche ausblenden</string>
+  <string name="FertilityAreaEffect">Fruchtbarkeitsbereich ausblenden</string>
+  <string name="ForestAreaEffect">Waldfläche ausblenden</string>
+  <string name="ShoreAreaEffect">Küstenbereich ausblenden</string>
+  <string name="PollutedAreaEffect">Verschmutzte Flächen ausblenden</string>
+  <string name="BurnedAreaEffect">Verbrannte Flächen ausblenden</string>
+  <string name="DestroyedAreaEffect">Zerstörte Flächen ausblenden</string>
+  <string name="PollutionFog">Verschmutzungsnebel ausblenden</string>
+  <string name="VolumeFog">Lautstärkenebel ausblenden</string>
+  <string name="DistanceFog">Distanznebel ausblenden</string>
+  <string name="EdgeFog">Randnebel ausblenden</string>
+</resources>
