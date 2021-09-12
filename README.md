@@ -8,3 +8,6 @@ This fork was created to be compatible with [BOB, the Tree and Prop Replacer](ht
 - keallu for the original Hide It! mod
 - Mbyron26 for the [Simplified Chinese translation](https://github.com/Mbyron26/Hide-it-bobby-Translation)
 - algernon-A for the German translation
+
+# Translation project
+Translation project is available at https://crowdin.com/project/cities-skylines-hide-it-bobby.
