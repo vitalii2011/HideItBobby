@@ -3,13 +3,12 @@ using HideItBobby.Settings.SettingsFiles;
 using System;
 using System.IO;
 using System.Xml.Serialization;
-using UnityEngine;
 
 namespace HideItBobby.Settings.Providers
 {
     internal sealed class Provider_1_21
     {
-        private static readonly Lazy<string> FileName = new Lazy<string>(() => Path.Combine(Paths.ConfigDir, "HideItBobbyConfig.xml"));
+        public static readonly Lazy<string> FileName = new Lazy<string>(() => Path.Combine(Paths.ConfigDir, "HideItBobbyConfig.xml"));
 
         private static readonly XmlSerializer Serializer;
         private static readonly XmlSerializerNamespaces Namespaces;

@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Cached.cs" />
+    <Compile Include="Common\Hash.cs" />
     <Compile Include="Common\IAvailabilityInfo.cs" />
     <Compile Include="Common\IDisposableEx.cs" />
     <Compile Include="Common\IErrorInfo.cs" />
@@ -103,6 +104,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Settings\Paths.cs" />
+    <Compile Include="Settings\Providers\Provider_Version.cs" />
+    <Compile Include="Settings\SettingsFiles\File_Version.cs" />
     <Compile Include="Translation\DefaultLanguage.cs" />
     <Compile Include="Translation\LanguageExtensions.cs" />
     <Compile Include="Translation\Serialization\StringItem.cs" />
@@ -110,6 +113,7 @@
     <Compile Include="Translation\Serialization\TranslationsReader.cs" />
     <Compile Include="Translation\Template.cs" />
     <Compile Include="UserInterface\TranslatedComponent.cs" />
+    <Compile Include="VersionMigrations\Migrate_1_21_to_1_22.cs" />
     <Compile Include="_Imports\Collections\DictionaryExtensions.cs" />
     <Compile Include="_Imports\Collections\ReadOnlyDictionary.cs" />
     <Compile Include="_Imports\Collections\IReadOnlyDictionary.cs" />

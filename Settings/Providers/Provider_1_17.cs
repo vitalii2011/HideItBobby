@@ -9,7 +9,7 @@ namespace HideItBobby.Settings.Providers
 {
     internal sealed class Provider_1_17
     {
-        private const string FileName = "HideItConfig.xml";
+        public const string FileName = "HideItConfig.xml";
 
         private static readonly XmlSerializer Serializer;
         private static readonly XmlSerializerNamespaces Namespaces;
