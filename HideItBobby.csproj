@@ -248,6 +248,9 @@
   <ItemGroup>
     <None Include="_Resources\hide_it_bobby.zh.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="_Resources\hide_it_bobby.ja.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>mkdir "%25LOCALAPPDATA%25\Colossal Order\Cities_Skylines\Addons\Mods\$(SolutionName)$(ConfigurationName)"

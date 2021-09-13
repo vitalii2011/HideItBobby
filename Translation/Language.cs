@@ -104,6 +104,12 @@ namespace HideItBobby.Translation
                 File.WriteAllText(enPath, Properties.Resources.hide_it_bobby_en, System.Text.Encoding.UTF8);
             }
 
+            var jaPath = Path.Combine(Paths.TranslationsDir, "hide_it_bobby.ja.xml");
+            if (!File.Exists(jaPath))
+            {
+                File.WriteAllText(jaPath, Properties.Resources.hide_it_bobby_ja, System.Text.Encoding.UTF8);
+            }
+
             var plPath = Path.Combine(Paths.TranslationsDir, "hide_it_bobby.pl.xml");
             if (!File.Exists(plPath))
             {

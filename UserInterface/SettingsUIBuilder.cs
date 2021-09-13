@@ -163,6 +163,10 @@ namespace HideItBobby.UserInterface
                         if (File.Exists(enPath)) File.Delete(enPath);
                         File.WriteAllText(enPath, Properties.Resources.hide_it_bobby_en, System.Text.Encoding.UTF8);
 
+                        var jaPath = Path.Combine(Paths.TranslationsDir, "hide_it_bobby.ja.xml");
+                        if (File.Exists(jaPath)) File.Delete(jaPath);
+                        File.WriteAllText(jaPath, Properties.Resources.hide_it_bobby_ja, System.Text.Encoding.UTF8);
+
                         var plPath = Path.Combine(Paths.TranslationsDir, "hide_it_bobby.pl.xml");
                         if (File.Exists(plPath)) File.Delete(plPath);
                         File.WriteAllText(plPath, Properties.Resources.hide_it_bobby_pl, System.Text.Encoding.UTF8);

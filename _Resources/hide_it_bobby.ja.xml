@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- language -->
+  <string name="LanguageName">日本語</string>
+  <string name="LanguageHeader">言語設定</string>
+  <string name="UseGameLanguage">システム言語を使用</string>
+  <string name="SelectLanguage">言語を選択</string>
+  <!-- features -->
+  <string name="AvailableFeaturesHeader">利用可能な機能</string>
+  <string name="UnavailableFeaturesHeader">利用不可の機能</string>
+  <string name="UnavailableFeaturesDescription">このセクションで表示される機能は、他のMODと競合して無効になっています</string>
+  <!-- main menu -->
+  <string name="MainMenuGroup">メインメニューのUI</string>
+  <string name="MainMenuChirper">チャーパーを非表示</string>
+  <string name="MainMenuDLCPanel">DLCパネルを非表示</string>
+  <string name="MainMenuLogoImage">ロゴを非表示</string>
+  <string name="MainMenuNewsPanel">ニュースパネルを非表示</string>
+  <string name="MainMenuParadoxAccountPanel">Paradoxアカウントのパネルを非表示</string>
+  <string name="MainMenuVersionNumber">バージョン情報を非表示</string>
+  <string name="MainMenuWorkshopPanel">ワークショップパネルを非表示</string>
+  <!-- ui elements -->
+  <string name="InGameUIGroup">ゲーム内のUI</string>
+  <string name="AdvisorButton">アドバイザーボタンを非表示</string>
+  <string name="BulldozerButton">ブルドーザーボタンを非表示</string>
+  <string name="ChirperButton">チャーパーボタンを非表示</string>
+  <string name="CinematicCameraButton">シネマティックカメラボタンを非表示</string>
+  <string name="CityName">都市名を非表示</string>
+  <string name="DisastersButton">災害警報ボタンを非表示</string>
+  <string name="FreeCameraButton">フリーカメラボタンを非表示</string>
+  <string name="GearButton">オプションボタンを非表示</string>
+  <string name="InfoViewsButton">情報ビューボタンを非表示</string>
+  <string name="RadioButton">ラジオボタンを非表示</string>
+  <string name="Separators">ツールバー内の区切りを非表示</string>
+  <string name="TimePanel">時計パネルを非表示</string>
+  <string name="UnlockButton">アンロックボタンを非表示</string>
+  <string name="ZoomAndUnlockBackground">ズームとアンロックにある背景画像を非表示</string>
+  <string name="ZoomButton">ズームボタンを非表示</string>
+  <string name="CongratulationPanel">マイルストーン達成時のパネルを非表示</string>
+  <string name="AdvisorPanel">アドバイザーパネルを非表示</string>
+  <string name="PauseOutlineEffect">一時停止時のアウトラインを非表示</string>
+  <string name="BulldozerBar">ブルドーザーバーを非表示</string>
+  <string name="Thermometer">温度計を非表示</string>
+  <string name="ModifyToolbarPosition">ツールバーの位置を変更</string>
+  <!-- objects and props -->
+  <string name="ObjectsAndPropsGroup">オブジェクトとProp</string>
+  <string name="Seagulls">カモメを取り除く</string>
+  <string name="Wildlife">野生動物を取り除く</string>
+  <!-- decorations -->
+  <string name="DecorationsGroup">スプライト</string>
+  <string name="CliffDecorations">崖のデコレーションを非表示</string>
+  <string name="FertileDecorations">芝生のデコレーションを非表示</string>
+  <string name="GrassDecorations">肥沃のデコレーションを非表示</string>
+  <!-- ruining -->
+  <string name="RuiningGroup">荒れ地</string>
+  <string name="TreeRuining">ツリー下の荒れ地を非表示</string>
+  <string name="PropRuining">Prop下の荒れ地を非表示</string>
+  <string name="UpdateRuiningButton">既にあるツリーやPropの下に出来る荒れ地を即座に除去する</string>
+  <string name="RuiningUnavailableDescriptionLine1">BOBを使用中なら、荒れ地の除去が同じく可能です</string>
+  <string name="RuiningUnavailableDescriptionLine2">このMODで無くBOBを使用して、ツリーとPropの荒れ地を非表示にしてください</string>
+  <!-- ground and water colors -->
+  <string name="GroundAndWaterColorGroup">地面と水域のカラー</string>
+  <string name="GrassFertilityGroundColor">肥沃エリアにある地面色を削除</string>
+  <string name="GrassFieldGroundColor">草原エリアにある地面色を削除</string>
+  <string name="GrassForestGroundColor">森林エリアにある地面色を削除</string>
+  <string name="GrassPollutionGroundColor">汚染された地面色を削除</string>
+  <string name="DirtyWaterColor">汚染された水の色を削除</string>
+  <!-- effects -->
+  <string name="EffectsGroup">エフェクト</string>
+  <string name="OreAreaEffect">鉱石エリアを非表示</string>
+  <string name="OilAreaEffect">原油エリアを非表示</string>
+  <string name="SandAreaEffect">砂浜エリアを非表示</string>
+  <string name="FertilityAreaEffect">肥沃エリアを非表示</string>
+  <string name="ForestAreaEffect">森林エリアを非表示</string>
+  <string name="ShoreAreaEffect">沿岸エリアを非表示</string>
+  <string name="PollutedAreaEffect">汚染されたエリアを非表示</string>
+  <string name="BurnedAreaEffect">焼けたエリアを非表示</string>
+  <string name="DestroyedAreaEffect">破壊されたエリアを非表示</string>
+  <string name="PollutionFog">汚染されたフォグを非表示</string>
+  <string name="VolumeFog">マップ内のフォグを非表示</string>
+  <string name="DistanceFog">都市境界のフォグを非表示</string>
+  <string name="EdgeFog">エッジ部分のフォグを非表示</string>
+</resources>
