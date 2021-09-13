@@ -22,14 +22,16 @@ namespace HideItBobby.UserInterface
 
         public static UIComponent Root(this UIHelperBase helper) => (UIComponent)rootField.Value.GetValue(helper);
 
-        public static TranslatedComponent<UILabel> AddLabel(this UIHelperBase helper, Template textTemplate, float textScale = 1.0f, Color32? textColor = null)
+        public static TranslatedComponent<UILabel> AddLabel(this UIHelperBase helper, Template textTemplate, float textScale = 1.0f, Color32? textColor = null, Vector2? minSize = null, Vector2? maxSize = null, bool wordWrap = false)
         {
             var uiLabel = helper.Root().AddUIComponent<UILabel>();
             uiLabel.autoSize = true;
             uiLabel.autoHeight = false;
-            uiLabel.wordWrap = false;
+            uiLabel.wordWrap = wordWrap;
             uiLabel.textScale = textScale;
             uiLabel.text = textTemplate?.Translate() ?? "";
+            if (minSize.HasValue) uiLabel.minimumSize = minSize.Value;
+            if (maxSize.HasValue) uiLabel.maximumSize = maxSize.Value;
             if (textColor.HasValue) uiLabel.textColor = textColor.Value;
             return new TranslatedComponent<UILabel>(uiLabel, (component, languageKey) =>
             {
@@ -142,8 +144,8 @@ namespace HideItBobby.UserInterface
         public static object AddSpace(this TranslatedGroup group, int height)
             => group.UIHelper.AddSpace(height);
 
-        public static TranslatedComponent<UILabel> AddLabel(this TranslatedGroup group, Template textTemplate, float textScale = 1.0f, Color32? textColor = null)
-            => AddLabel(group.UIHelper, textTemplate, textScale, textColor);
+        public static TranslatedComponent<UILabel> AddLabel(this TranslatedGroup group, Template textTemplate, float textScale = 1.0f, Color32? textColor = null, Vector2? minSize = null, Vector2? maxSize = null, bool wordWrap = false)
+            => AddLabel(group.UIHelper, textTemplate, textScale, textColor, minSize, maxSize, wordWrap);
 
         public static TranslatedComponent<UICheckBox> AddCheckbox(this TranslatedGroup group, Template textTemplate, bool value, Action<UICheckBox, bool> eventCallback, float textScale = 1.0f, Color32? textColor = null, bool enabled = true)
             => AddCheckbox(group.UIHelper, textTemplate, value, eventCallback, textScale, textColor, enabled);
