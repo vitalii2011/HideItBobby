@@ -3,8 +3,8 @@
     internal static class ModProperties
     {
         public const string HarmonyId = "com.github.TheCSUser.HideItBobby";
-        public const string Version = "1.22";
-        public const int VersionInteger = 22;
+        public const string Version = "1.23";
+        public const int VersionInteger = 23;
         public const string Name = "Hide it, Bobby!";
         public const string ShortName = "HideItBobby";
 #if DEV
