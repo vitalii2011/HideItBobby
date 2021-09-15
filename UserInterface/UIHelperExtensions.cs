@@ -27,11 +27,12 @@ namespace HideItBobby.UserInterface
             var uiLabel = helper.Root().AddUIComponent<UILabel>();
             uiLabel.autoSize = true;
             uiLabel.autoHeight = false;
-            uiLabel.wordWrap = wordWrap;
+            uiLabel.wordWrap = false;
+            //uiLabel.wordWrap = wordWrap;
             uiLabel.textScale = textScale;
             uiLabel.text = textTemplate?.Translate() ?? "";
-            if (minSize.HasValue) uiLabel.minimumSize = minSize.Value;
-            if (maxSize.HasValue) uiLabel.maximumSize = maxSize.Value;
+            //if (minSize.HasValue) uiLabel.minimumSize = minSize.Value;
+            //if (maxSize.HasValue) uiLabel.maximumSize = maxSize.Value;
             if (textColor.HasValue) uiLabel.textColor = textColor.Value;
             return new TranslatedComponent<UILabel>(uiLabel, (component, languageKey) =>
             {
