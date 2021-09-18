@@ -10,6 +10,7 @@ This fork was created to be compatible with [BOB, the Tree and Prop Replacer](ht
 - Mbyron26 for the [Simplified Chinese translation](https://github.com/Mbyron26/Hide-it-bobby-Translation)
 - Chamëleon TBN for the German translation
 - adon for the Janapese translation
+- Citadino for the Spanish translation
 
 # Translation project
 Translation project is available at https://crowdin.com/project/cities-skylines-hide-it-bobby.
