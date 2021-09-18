@@ -25,6 +25,7 @@ namespace HideItBobby.Translation
         public static readonly Phrase AvailableFeaturesHeader = Create(nameof(AvailableFeaturesHeader));
         public static readonly Phrase UnavailableFeaturesHeader = Create(nameof(UnavailableFeaturesHeader));
         public static readonly Phrase UnavailableFeaturesDescription = Create(nameof(UnavailableFeaturesDescription));
+        public static readonly Phrase UnavailableFeaturesDescriptionLine2 = Create(nameof(UnavailableFeaturesDescriptionLine2));//dirty fix for word wrap issues
         //MainManu
         public static readonly Phrase MainMenuGroup = Create(nameof(MainMenuGroup));
         public static readonly Phrase MainMenuChirper = Create(nameof(MainMenuChirper));
@@ -73,6 +74,7 @@ namespace HideItBobby.Translation
         public static readonly Phrase UpdateRuiningButton = Create(nameof(UpdateRuiningButton));
         public static readonly Phrase RuiningUnavailableDescriptionLine1 = Create(nameof(RuiningUnavailableDescriptionLine1));
         public static readonly Phrase RuiningUnavailableDescriptionLine2 = Create(nameof(RuiningUnavailableDescriptionLine2));
+        public static readonly Phrase RuiningUnavailableDescriptionLine3 = Create(nameof(RuiningUnavailableDescriptionLine3));//dirty fix for word wrap issues
         //GroundAndWaterColor
         public static readonly Phrase GroundAndWaterColorGroup = Create(nameof(GroundAndWaterColorGroup));
         public static readonly Phrase GrassFertilityGroundColor = Create(nameof(GrassFertilityGroundColor));

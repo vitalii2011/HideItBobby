@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- language -->
+  <string name="LanguageName">Español</string>
+  <string name="LanguageHeader">Idioma</string>
+  <string name="UseGameLanguage">Utilizar idioma del juego</string>
+  <string name="SelectLanguage">Seleccionar idioma</string>
+  <!-- features -->
+  <string name="AvailableFeaturesHeader">Características disponibles</string>
+  <string name="UnavailableFeaturesHeader">Características no disponibles</string>
+  <string name="UnavailableFeaturesDescription">Características visibles en esta sección están deshabilitadas debido a algún conflicto </string>
+  <string name="UnavailableFeaturesDescriptionLine2">con otro mod.</string>
+  <!-- main menu -->
+  <string name="MainMenuGroup">Menú Principal</string>
+  <string name="MainMenuChirper">Ocultar Chirper</string>
+  <string name="MainMenuDLCPanel">Ocultar panel de contenido descargable</string>
+  <string name="MainMenuLogoImage">Ocultar logo</string>
+  <string name="MainMenuNewsPanel">Ocultar panel de noticias</string>
+  <string name="MainMenuParadoxAccountPanel">Ocultar panel de cuenta Paradox</string>
+  <string name="MainMenuVersionNumber">Ocultar versión</string>
+  <string name="MainMenuWorkshopPanel">Ocultar panel del workshop</string>
+  <!-- ui elements -->
+  <string name="InGameUIGroup">Menú en juego</string>
+  <string name="AdvisorButton">Ocultar botón de ayuda</string>
+  <string name="BulldozerButton">Ocultar botón de demolición</string>
+  <string name="ChirperButton">Ocultar botón del Chirper</string>
+  <string name="CinematicCameraButton">Ocultar botón de cámara cinemática</string>
+  <string name="CityName">Ocultar nombre de la ciudad</string>
+  <string name="DisastersButton">Ocultar botón de catástrofes</string>
+  <string name="FreeCameraButton">Ocultar botón de cámara libre</string>
+  <string name="GearButton">Ocultar botón de pausa</string>
+  <string name="InfoViewsButton">Ocultar botón de información</string>
+  <string name="RadioButton">Ocultar botón de emisoras de radio</string>
+  <string name="Separators">Ocultar separadores en la barra de herramientas</string>
+  <string name="TimePanel">Ocultar panel de tiempo / hora</string>
+  <string name="UnlockButton">Ocultar botón de metas</string>
+  <string name="ZoomAndUnlockBackground">Ocultar fondo de metas y acercamiento</string>
+  <string name="ZoomButton">Ocultar botón de acercamiento</string>
+  <string name="CongratulationPanel">Ocultar panel de felicitaciones</string>
+  <string name="AdvisorPanel">Ocultar panel de ayuda</string>
+  <string name="PauseOutlineEffect">Ocultar línea de borde en pausa</string>
+  <string name="BulldozerBar">Ocultar barra de demolición</string>
+  <string name="Thermometer">Ocultar termómetro</string>
+  <string name="ModifyToolbarPosition">Modificar posición de la barra de herramientas</string>
+  <!-- objects and props -->
+  <string name="ObjectsAndPropsGroup">Objetos y decoraciones</string>
+  <string name="Seagulls">Eliminar gaviotas</string>
+  <string name="Wildlife">Eliminar vida salvaje</string>
+  <!-- decorations -->
+  <string name="DecorationsGroup">Sprites</string>
+  <string name="CliffDecorations">Esconder decoraciones de acantilados</string>
+  <string name="FertileDecorations">Esconder decoraciones de césped</string>
+  <string name="GrassDecorations">Esconder decoraciones de tierra fértil</string>
+  <!-- ruining -->
+  <string name="RuiningGroup">Arruinado</string>
+  <string name="TreeRuining">Ocultar terreno arruinado debajo de árboles</string>
+  <string name="PropRuining">Ocultar terreno arruinado debajo de elementos</string>
+  <string name="UpdateRuiningButton">Actualizar terreno arruinado en árboles y decoraciones existentes!</string>
+  <string name="RuiningUnavailableDescriptionLine1">Estás usando BOB para ocultar el terreno arruinado.</string>
+  <string name="RuiningUnavailableDescriptionLine2">Por favor utiliza BOB en lugar de este mod para esconder el terreno arruinado </string>
+  <string name="RuiningUnavailableDescriptionLine3">de árboles y decoraciones.</string>
+  <!-- ground and water colors -->
+  <string name="GroundAndWaterColorGroup">Colores de terreno y agua</string>
+  <string name="GrassFertilityGroundColor">Eliminar color de tierra fértil en el terreno</string>
+  <string name="GrassFieldGroundColor">Eliminar color de campos de césped en el terreno</string>
+  <string name="GrassForestGroundColor">Eliminar color de tierra forestal</string>
+  <string name="GrassPollutionGroundColor">Eliminar color de contaminación en el terreno</string>
+  <string name="DirtyWaterColor">Eliminar suciedad en el agua</string>
+  <!-- effects -->
+  <string name="EffectsGroup">Efectos</string>
+  <string name="OreAreaEffect">Ocultar área de minerales</string>
+  <string name="OilAreaEffect">Ocultar área de petróleo</string>
+  <string name="SandAreaEffect">Ocultar área de arena</string>
+  <string name="FertilityAreaEffect">Ocultar área fértil</string>
+  <string name="ForestAreaEffect">Ocultar área forestal</string>
+  <string name="ShoreAreaEffect">Ocultar orilla de playa</string>
+  <string name="PollutedAreaEffect">Ocultar area contaminada</string>
+  <string name="BurnedAreaEffect">Ocultar área quemada</string>
+  <string name="DestroyedAreaEffect">Ocultar área destruida</string>
+  <string name="PollutionFog">Ocultar aire contaminado</string>
+  <string name="VolumeFog">Ocultar volumen de niebla</string>
+  <string name="DistanceFog">Ocultar niebla distante</string>
+  <string name="EdgeFog">Ocultar niebla de los bordes del mapa</string>
+</resources>

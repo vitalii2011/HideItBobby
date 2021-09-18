@@ -102,6 +102,25 @@ namespace HideItBobby.Properties {
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;resources&gt;
         ///  &lt;!-- language --&gt;
+        ///  &lt;string name=&quot;LanguageName&quot;&gt;Español&lt;/string&gt;
+        ///  &lt;string name=&quot;LanguageHeader&quot;&gt;Idioma&lt;/string&gt;
+        ///  &lt;string name=&quot;UseGameLanguage&quot;&gt;Utilizar idioma del juego&lt;/string&gt;
+        ///  &lt;string name=&quot;SelectLanguage&quot;&gt;Seleccionar idioma&lt;/string&gt;
+        ///  &lt;!-- features --&gt;
+        ///  &lt;string name=&quot;AvailableFeaturesHeader&quot;&gt;Características disponibles&lt;/string&gt;
+        ///  &lt;string name=&quot;UnavailableFeaturesHeader&quot;&gt;Características no disponibles&lt;/string&gt;
+        ///  &lt;string name=&quot;UnavailableFeaturesDe [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string hide_it_bobby_es {
+            get {
+                return ResourceManager.GetString("hide_it_bobby_es", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;resources&gt;
+        ///  &lt;!-- language --&gt;
         ///  &lt;string name=&quot;LanguageName&quot;&gt;日本語&lt;/string&gt;
         ///  &lt;string name=&quot;LanguageHeader&quot;&gt;言語設定&lt;/string&gt;
         ///  &lt;string name=&quot;UseGameLanguage&quot;&gt;システム言語を使用&lt;/string&gt;
@@ -110,8 +129,7 @@ namespace HideItBobby.Properties {
         ///  &lt;string name=&quot;AvailableFeaturesHeader&quot;&gt;利用可能な機能&lt;/string&gt;
         ///  &lt;string name=&quot;UnavailableFeaturesHeader&quot;&gt;利用不可の機能&lt;/string&gt;
         ///  &lt;string name=&quot;UnavailableFeaturesDescription&quot;&gt;このセクションで表示される機能は、他のMODと競合して無効になっています&lt;/string&gt;
-        ///  &lt;!-- main menu --&gt;
-        /// [rest of string was truncated]&quot;;.
+        ///  &lt;!-- mai [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string hide_it_bobby_ja {
             get {

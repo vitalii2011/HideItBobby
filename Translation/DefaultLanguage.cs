@@ -28,6 +28,7 @@ namespace HideItBobby.Translation
             { AvailableFeaturesHeader,"Available features" },
             { UnavailableFeaturesHeader,"Unavailable features" },
             { UnavailableFeaturesDescription,"Features visible in this section are disabled due to a conflict with another mod." },
+            { UnavailableFeaturesDescriptionLine2, "" },
             //main menu
             { MainMenuGroup,"Main menu UI" },
             { MainMenuChirper,"Hide chirper" },
@@ -76,6 +77,7 @@ namespace HideItBobby.Translation
             { UpdateRuiningButton,"Update ruining on existing trees and props now!" },
             { RuiningUnavailableDescriptionLine1,"You are using BOB with hiding of ruining feature." },
             { RuiningUnavailableDescriptionLine2,"Please use BOB instead of this mod to hide tree and prop ruining." },
+            { RuiningUnavailableDescriptionLine3,"" },
             //ground and water colors
             { GroundAndWaterColorGroup,"Ground and water colors" },
             { GrassFertilityGroundColor,"Remove grass fertility ground color" },

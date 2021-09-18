@@ -8,7 +8,8 @@
   <!-- features -->
   <string name="AvailableFeaturesHeader">Verfügbare Funktionen</string>
   <string name="UnavailableFeaturesHeader">Nicht verfügbare Funktionen</string>
-  <string name="UnavailableFeaturesDescription">In diesem Abschnitt sichtbare Funktionen sind aufgrund eines Konflikts mit einer anderen Mod deaktiviert.</string>
+  <string name="UnavailableFeaturesDescription">In diesem Abschnitt sichtbare Funktionen sind aufgrund eines Konflikts mit einer </string>
+  <string name="UnavailableFeaturesDescriptionLine2">anderen Mod deaktiviert.</string>
   <!-- main menu -->
   <string name="MainMenuGroup">Hauptmenü-Oberfläche</string>
   <string name="MainMenuChirper">Chirper ausblenden</string>
@@ -56,7 +57,8 @@
   <string name="PropRuining">Abgenutzte Oberfläche unter Requisiten ausblenden</string>
   <string name="UpdateRuiningButton">Aktualisiere jetzt die Abnutzung unter bestehenden Bäumen und Requisiten!</string>
   <string name="RuiningUnavailableDescriptionLine1">Du verwendest BOB zum Verstecken der Abnutzung.</string>
-  <string name="RuiningUnavailableDescriptionLine2">Bitte benutze BOB anstelle dieser Mods, um die Abnutzung unter bestehenden Bäumen und Requisiten zu verstecken.</string>
+  <string name="RuiningUnavailableDescriptionLine2">Bitte benutze BOB anstelle dieser Mods, um die Abnutzung unter bestehenden </string>
+  <string name="RuiningUnavailableDescriptionLine3">Bäumen und Requisiten zu verstecken.</string>
   <!-- ground and water colors -->
   <string name="GroundAndWaterColorGroup">Farben von Boden und Wasser</string>
   <string name="GrassFertilityGroundColor">Fruchtbarkeits-Bodenfärbung entfernen</string>

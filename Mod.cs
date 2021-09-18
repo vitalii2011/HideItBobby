@@ -32,6 +32,7 @@ namespace HideItBobby
                 if (versionInfo is null || versionInfo.Version < ModProperties.VersionInteger)
                 {
                     Migrate_1_21_to_1_22.Migrate(versionInfo);
+                    Migrate_1_24_to_1_25.Migrate(versionInfo);
 
                     Provider_Verison.Save(new File_Version()
                     {

@@ -32,8 +32,8 @@ namespace HideItBobby.UserInterface
                 disposables.Add(devTools);
 
                 devTools.AddSpace(3);
-                disposables.Add(devTools.AddLabel(DevToolsDescriptionLine1, minSize: LabelMinMaxSize, maxSize: LabelMinMaxSize, wordWrap: true));
-                disposables.Add(devTools.AddLabel(DevToolsDescriptionLine2, textColor: RedRYB, minSize: LabelMinMaxSize, maxSize: LabelMinMaxSize, wordWrap: true));
+                disposables.Add(devTools.AddLabel(DevToolsDescriptionLine1));
+                disposables.Add(devTools.AddLabel(DevToolsDescriptionLine2, textColor: RedRYB));
                 devTools.AddSpace(3);
 
                 disposables.Add(devTools.AddButton(new Template(DevToolsEnable, ShortName), button =>
@@ -163,6 +163,10 @@ namespace HideItBobby.UserInterface
                         if (File.Exists(enPath)) File.Delete(enPath);
                         File.WriteAllText(enPath, Properties.Resources.hide_it_bobby_en, System.Text.Encoding.UTF8);
 
+                        var esPath = Path.Combine(Paths.TranslationsDir, "hide_it_bobby.es.xml");
+                        if (File.Exists(esPath)) File.Delete(esPath);
+                        File.WriteAllText(esPath, Properties.Resources.hide_it_bobby_es, System.Text.Encoding.UTF8);
+
                         var jaPath = Path.Combine(Paths.TranslationsDir, "hide_it_bobby.ja.xml");
                         if (File.Exists(jaPath)) File.Delete(jaPath);
                         File.WriteAllText(jaPath, Properties.Resources.hide_it_bobby_ja, System.Text.Encoding.UTF8);
@@ -251,7 +255,11 @@ namespace HideItBobby.UserInterface
                 disposables.Add(availableFeatures);
                 var unAvailableFeatures = helper.AddGroup(UnavailableFeaturesHeader, textScale: 2, textColor: White);
                 disposables.Add(unAvailableFeatures);
-                disposables.Add(unAvailableFeatures.AddLabel(UnavailableFeaturesDescription, textColor: HoneyYellow, minSize: LabelMinMaxSize, maxSize: LabelMinMaxSize, wordWrap: true));
+                disposables.Add(unAvailableFeatures.AddLabel(UnavailableFeaturesDescription, textColor: HoneyYellow));
+                disposables.Add(unAvailableFeatures.AddLabel(UnavailableFeaturesDescriptionLine2, textColor: HoneyYellow, onTranslate: (label, __) =>
+                {
+                   label.isVisible = !string.IsNullOrEmpty(label.text);
+                }));
 
                 #region MainMenu
                 disposables.Add(AddGroupHeader(availableFeatures, MainMenuGroup));
@@ -379,8 +387,12 @@ namespace HideItBobby.UserInterface
                 else
                 {
                     disposables.Add(AddGroupHeader(unAvailableFeatures, RuiningGroup));
-                    disposables.Add(unAvailableFeatures.AddLabel(RuiningUnavailableDescriptionLine1, textColor: White, minSize: LabelMinMaxSize, maxSize: LabelMinMaxSize, wordWrap: true));
-                    disposables.Add(unAvailableFeatures.AddLabel(RuiningUnavailableDescriptionLine2, textColor: White, minSize: LabelMinMaxSize, maxSize: LabelMinMaxSize, wordWrap: true));
+                    disposables.Add(unAvailableFeatures.AddLabel(RuiningUnavailableDescriptionLine1, textColor: White));
+                    disposables.Add(unAvailableFeatures.AddLabel(RuiningUnavailableDescriptionLine2, textColor: White));
+                    disposables.Add(unAvailableFeatures.AddLabel(RuiningUnavailableDescriptionLine3, textColor: White, onTranslate: (label, __) =>
+                    {
+                        label.isVisible = !string.IsNullOrEmpty(label.text);
+                    }));
                     unAvailableFeatures.AddSpace(3);
                     disposables.Add(AddUnavailableFeatureCheckbox(unAvailableFeatures, TreeRuining, ModSettings.Data.HideTreeRuining, value => ModSettings.Data.HideTreeRuining = value));
                     disposables.Add(AddUnavailableFeatureCheckbox(unAvailableFeatures, PropRuining, ModSettings.Data.HidePropRuining, value => ModSettings.Data.HidePropRuining = value));
@@ -423,8 +435,6 @@ namespace HideItBobby.UserInterface
         }
 
         #region UI elements helpers
-
-        private static readonly Vector2 LabelMinMaxSize = new Vector2(710f, 0f);
 
         private static TranslatedComponent<UILabel> AddGroupHeader(TranslatedGroup group, Template textTemplate)
         {

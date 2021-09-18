@@ -113,6 +113,7 @@
     <Compile Include="Translation\Serialization\TranslationsReader.cs" />
     <Compile Include="Translation\Template.cs" />
     <Compile Include="UserInterface\TranslatedComponent.cs" />
+    <Compile Include="VersionMigrations\Migrate_1_24_to_1_25.cs" />
     <Compile Include="VersionMigrations\Migrate_1_21_to_1_22.cs" />
     <Compile Include="_Imports\Collections\DictionaryExtensions.cs" />
     <Compile Include="_Imports\Collections\ReadOnlyDictionary.cs" />
@@ -250,6 +251,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="_Resources\hide_it_bobby.ja.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_Resources\hide_it_bobby.es.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
