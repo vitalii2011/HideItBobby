@@ -20,7 +20,7 @@ namespace HideItBobby.Features
 #if DEV || PREVIEW
         private const int ErrorTreshold = 10;
 #else
-        private const int ErrorTreshold = 3;
+        private const int ErrorTreshold = 30;
 #endif
         private int _errorCount;
         public int ErrorCount => _errorCount;
