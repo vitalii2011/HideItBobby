@@ -43,7 +43,7 @@
   <string name="ModifyToolbarPosition">Изменить положение панели инструментов</string>
   <!-- objects and props -->
   <string name="ObjectsAndPropsGroup">Объекты и реквизит</string>
-  <string name="Seagulls">Убрать чаек </string>
+  <string name="Seagulls">Убрать чаек</string>
   <string name="Wildlife">Убрать диких животных</string>
   <!-- decorations -->
   <string name="DecorationsGroup">Спрайты</string>
