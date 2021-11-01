@@ -32,7 +32,7 @@
   <string name="RadioButton">Скрыть кнопку радио</string>
   <string name="Separators">Скрыть разделители на панели инструментов</string>
   <string name="TimePanel">Скрыть панель времени</string>
-  <string name="UnlockButton">Скрыть кнопку разблокировки</string>
+  <string name="UnlockButton">Скрыть кнопку этапов</string>
   <string name="ZoomAndUnlockBackground">Убрать фон в масштабировании и разблокировке</string>
   <string name="ZoomButton">Скрыть кнопку масштабирования</string>
   <string name="CongratulationPanel">Скрыть панель поздравлений</string>
