@@ -76,7 +76,7 @@
   <string name="BurnedAreaEffect">Скрыть пожарища</string>
   <string name="DestroyedAreaEffect">Скрыть разрушенную область</string>
   <string name="PollutionFog">Скрыть промышленный смог</string>
-  <string name="VolumeFog">Hide volume fog</string>
+  <string name="VolumeFog">Скрыть объёмный туман</string>
   <string name="DistanceFog">Скрыть туман расстояния</string>
   <string name="EdgeFog">Скрыть туман края карты</string>
 </resources>
